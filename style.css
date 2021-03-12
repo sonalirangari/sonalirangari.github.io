@@ -1,0 +1,85 @@
+.bg-img{
+background-image: url('assets/3.jpg');
+background-repeat: no-repeat !important; 
+
+    /* Full height */
+    height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth !important;
+
+}
+
+
+  label{
+      color: white;
+      font-weight: 500;
+  }
+
+.note{
+    text-align: center;
+    height: 80px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content{
+    padding: 5%;
+    border: 8px solid rgb(82, 22, 22);
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius: 1.5rem;
+    
+}
+.btnSubmit{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background-color: #1789fc;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+   
+}
+span{
+    color: red;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.media-container-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: start;
+}
+.card-wrapper{
+    height: 100%;
+    box-shadow: 0 0 0 0 transparent;
+    transition: box-shadow .3s;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.card-img{
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+}
