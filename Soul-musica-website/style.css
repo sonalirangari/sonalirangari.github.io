@@ -1,0 +1,317 @@
+
+.bg-img{
+    background-image: url('assets/music1.jpg');
+    background-repeat: no-repeat !important; 
+    
+        /* Full height */
+        height: 100vh; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-size: cover;
+    }
+    html{
+        scroll-behavior: smooth !important;
+        
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size:25px;
+        color: white;
+    }
+    .navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size:25px;
+        color: #36957d;
+    }
+    .nav-item{
+        padding: 10px;
+    }
+
+    .bg-light-color{
+        background: #262626;
+        color: white !important;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size:25px;
+    }
+
+      label{
+          color: white;
+          font-family: Brush Script MT, Brush Script Std, cursive;
+          font-size:20px;
+      }
+    .text-white{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 40px;
+    }
+    .note{
+        text-align: center;
+        height: 80px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 80px;
+    }
+    .form-content{
+        padding: 5%;
+        border: 8px solid rgb(82, 22, 22);
+        margin-bottom: 2%;
+    }
+    .form-control{
+        border-radius: 5px;
+    }
+    .btnSubmit{
+        border: none;
+        border-radius: 5px;
+        /* border-radius: 1.5rem; */
+        padding: 1%;
+        width: 50%;
+        height: 40px;
+        cursor: pointer;
+        background-color: #36957d;
+        color: red;
+        font-size: 20px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    
+    .img-hw{
+        height:100%;
+        width:100%;
+        padding: 20px;
+        display: block;
+    }
+    .gallary{
+       height:auto;
+       width:100%;
+       padding: 20px;
+       border-radius: 30px;
+    }
+    
+    .demo-content{
+        padding: 15px;
+        font-size: 18px;
+        background: white;
+        margin-bottom: 50px;
+        border-radius: 8px;
+        position: relative;
+        width: 100%;
+    }
+    .demo-content-11{
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 8px;
+        position: relative;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /* height: 100%;
+        width: 100%; */
+        opacity: 0;
+        transition: .5s ease;
+        /* background-color: #7229b2; */
+        /* background-image: linear-gradient(to right, #484cc7, #863fd5) */
+        background-image: linear-gradient(to right, red, blue)
+      }
+      
+      .demo-content-11:hover .overlay {
+        opacity: 0.5;
+        border-radius: 10px;
+      }
+      
+      .text {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: cyan;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* opacity: 0.10; */
+      }
+     
+    .navbar-brand{
+       font-family: Brush Script MT, Brush Script Std, cursive;
+       font-size: 50px;
+       color: white;
+    }
+    .para-content{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 35px;
+        color: white;  
+    }
+    h4 {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .a-link{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        text-decoration: none !important;
+        font-size: 20px;
+        font-weight: 600;
+        color: #36957d;
+
+    }
+    .display-4{
+       margin-top: -400px !important;
+    }
+    .lead{
+        font-size: 50px;
+    }
+    .title{
+        align-items: center;
+        color: white;
+        font-family: Brush Script MT, Brush Script Std, cursive; 
+    }
+    .carousel-item {
+        
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .text-black{
+          font-size: 30px;
+          color: white;
+          font-family: Brush Script MT, Brush Script Std, cursive;
+      }
+      
+
+
+.container-fluid {
+    overflow: hidden;
+    background: #262626;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size:25px;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top:50px;
+}
+
+h3 {
+    font-size: 20px !important;
+}
+
+.social {
+    font-size:30px !important;
+}
+
+.rights {
+    font-size: 19px !important;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+}
+.mdi-chevron-right::before {
+    content: "\f054"!important;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    font-size: 14px;
+  }
+  .navbar-toggler,.navbar-toggler-icon{
+      color: white !important;
+  }
+  a:hover{
+    text-decoration: none !important;
+    color: #36957d;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: rgb(230, 8, 8);
+  }
+  .aa-co,.mb-1{
+      color: white;
+      font-family: Brush Script MT, Brush Script Std, cursive; 
+      font-size: 25px;
+  }
+  .bold-text{
+      color: white !important;
+      font-family: Brush Script MT, Brush Script Std, cursive; 
+      font-size: 25px;
+  }
+  .bold-text-data{
+    color: white !important;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    font-size: 50px;
+  }
+  .lead-data{
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    font-size: 30px;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 600px) {
+    .bg-img{
+        background-image: url('assets/music1.jpg');
+        background-repeat: no-repeat !important; 
+        
+            /* Full height */
+            height: auto !important; 
+        
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-size: cover;
+        }  
+        .navbar-brand{
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            font-size:30px;
+            color: white;
+         }
+         .mar-bott{
+             padding-bottom: 80px;
+         }
+}
+/* ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+.bg-img{
+    background-image: url('assets/music1.jpg');
+    background-repeat: no-repeat !important; 
+    
+        /* Full height */
+        height: auto !important; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-size: cover;
+    }
+    .mar-bott{
+        padding-bottom: 80px;
+    } 
+    small {
+        font-size: 20px;
+        color: white;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    .social {
+        font-size: 20px !important;
+    }
+}
